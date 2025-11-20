@@ -1,0 +1,81 @@
+
+.bg{
+  background-image: url('/src/assets/login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.log {
+  text-align: center;
+  width: 350px;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-right: 400px;
+  background: none;
+}
+
+.headlog {
+  color: rgb(255, 255, 0);
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  border-color: #ffb405;
+  box-shadow: 4px 4px 8px #ffb405b7 , -4px -4px 8px #ffb405b7;
+  outline: none;
+}
+
+button {
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: rgb(212, 0, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease;
+ 
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #ffb405;
+  color: rgb(255, 253, 253);
+  transform: scale(1.05);
+   box-shadow: 0px  6px 10px rgb(255, 232, 82);
+}
