@@ -3,7 +3,7 @@
     padding: 0;
 }
 html{
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 nav {
   position: fixed;      
@@ -19,15 +19,15 @@ nav {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-#cake,#sweet,#burger{
+#cake,#sweet,#burger,#location,#about{
   scroll-margin-top: 100px;   }
 
 
 nav ul {
   display: flex;
   justify-content: space-evenly;
-  gap: 10px;
-  width: 35%; 
+  gap: 5px;
+  width: 45%; 
 }
 
 a{
@@ -254,7 +254,7 @@ h2{
 }
 .snack-card:hover {
   transform: translateY(-8px);  
-  box-shadow: 0px 8px 20px rgb(130, 124, 248);
+  box-shadow: 0px 8px 20px rgb(0, 0, 0);
 }
 
 .snack-card img {
@@ -291,19 +291,135 @@ h2{
   height: 45px;
   width: 60%;
   padding: 7px;
-  background-color: rgb(255, 54, 54);
+  background-color: rgb(255, 0, 47);
 
 }
 .snabut:hover{
     height: 45px;
   width: 120px;
   border-radius: 10px;
-  background-color: rgb(80, 0, 199);
+  background-color: rgb(81, 209, 107);
   color: rgb(255, 255, 255);
   border: none;
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
   transition: 0.3s ease;
-  box-shadow: 0px 6px 14px rgb(80, 0, 221);
+  box-shadow: 0px 6px 14px rgb(0, 0, 0);
 }
+.about{
+  display: flex;
+  justify-content: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  background:linear-gradient(cyan,limegreen);
+  padding-top: 30px;
+}
+.who{
+  background-color: rgb(255, 145, 0);
+  height: 100%;width: 280px;
+  padding: 30px;
+  border-radius: 5px;
+  margin-left: 20px;
+
+
+}
+.who:hover{
+  transform: translateY(-8px);
+  transition: all 0.4s ease;
+  box-shadow: 0px 6px 16px rgb(0, 0, 0);
+}
+.w{
+  text-align: center;
+  color: #ffeeee;
+  font-size: x-large;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wh{
+    font-size:15px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top:4px ;
+  margin-left: 10px;
+  
+  
+}
+
+.contact-page {
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.con{
+  display: flex;
+  justify-content:center;
+  margin-left: 250px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cont{
+  display: flex;
+  justify-content: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: linear-gradient(rgb(255, 113, 137),rgb(173, 169, 169));
+}
+.contact-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.contact-section,
+.location-section,
+.social-section {
+  background: #ffec5f;
+  transition: 0.3s ease;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.contact-section h3,
+.location-section h3,
+.social-section h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ff6b35;
+}
+
+.contact-section p,
+.location-section p,
+.social-section p {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.contact-section:hover,
+.location-section:hover,
+.social-section:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 16px rgb(0, 0, 0);
+}
+
