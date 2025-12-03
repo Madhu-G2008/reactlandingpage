@@ -1,6 +1,3 @@
-/* ----------------------------- */
-/* PAGE BASIC STYLING */
-/* ----------------------------- */
 
 .cart-page {
   width: 100%;
@@ -11,9 +8,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* ----------------------------- */
-/* BACK BUTTON */
-/* ----------------------------- */
 
 .back-btn {
   position: absolute;
@@ -37,9 +31,6 @@
   transform: scale(1.05);
 }
 
-/* ----------------------------- */
-/* CART TITLE */
-/* ----------------------------- */
 
 .cart-title {
   text-align: center;
@@ -49,9 +40,6 @@
   color: #ff7c1f;
 }
 
-/* ----------------------------- */
-/* CART ITEMS */
-/* ----------------------------- */
 
 .cart-container {
   width: 95%;
@@ -103,9 +91,7 @@
   transform: scale(1.05);
 }
 
-/* ----------------------------- */
-/* EMPTY TEXT */
-/* ----------------------------- */
+
 
 .empty-text {
   text-align: center;
@@ -113,9 +99,7 @@
   font-size: 18px;
 }
 
-/* ----------------------------- */
-/* SUMMARY BOX */
-/* ----------------------------- */
+
 
 .cart-summary {
   width: 90%;
@@ -172,15 +156,10 @@
   transform: scale(1.02);
 }
 
-/* Summary animation */
-@keyframes slideUp {
-  from { transform: translateY(20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
 
-/* ----------------------------- */
-/* PAYMENT METHOD BOX */
-/* ----------------------------- */
+
+
+
 
 .payment-box {
   width: 90%;
@@ -211,7 +190,7 @@
   transform: scale(1.03);
 }
 
-/* PIN INPUT */
+
 
 .pin-input {
   width: 60%;
@@ -223,9 +202,7 @@
   text-align: center;
 }
 
-/* ----------------------------- */
-/* PROCESSING LOADER */
-/* ----------------------------- */
+
 
 .processing-box {
   width: 90%;
@@ -252,9 +229,7 @@
   to { transform: rotate(360deg); }
 }
 
-/* ----------------------------- */
-/* SUCCESS MESSAGE */
-/* ----------------------------- */
+
 
 .success-box {
   width: 90%;
@@ -277,5 +252,5 @@
   font-size: 18px;
 }
 
-/* ----------------------------- */
+
 

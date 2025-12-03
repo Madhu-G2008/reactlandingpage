@@ -8,7 +8,8 @@ function Login() {
   const navigate = useNavigate();
 
   function handleLogin() {
-    navigate("/home"); 
+    navigate("/home");
+    alert("hello") 
   }
 
   return (

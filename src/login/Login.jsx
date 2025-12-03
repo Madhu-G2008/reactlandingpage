@@ -51,19 +51,12 @@ function Login() {
  const addProduct = (name, price, image, unit) => {
   const newProduct = { name, price, image, unit };
 
-  // get existing cart from local storage
+ 
   const existingCart = JSON.parse(localStorage.getItem("cart")) || [];
-
-  // add new product
   existingCart.push(newProduct);
-
-  // save back to localStorage
   localStorage.setItem("cart", JSON.stringify(existingCart));
-
-  // navigate to cart page
-  navigate("/cart", {
-    state: { cart: existingCart }
-  });
+  
+  navigate("/cart");
 };
 
 
